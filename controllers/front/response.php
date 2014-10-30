@@ -84,7 +84,7 @@ class PayulatamResponseModuleFrontController extends ModuleFrontController
 		else if ($transaction_state == 4 && $pol_response_code == 1)
 		{
 			$estado_tx = $payulatam->l('Transaction Approved');
-			$messageApproved = $payulatam->l('¡Thank you for your purchase!');
+			$messageApproved = $payulatam->l('Thank you for your purchase!');
 		}
 		else
 		{
@@ -130,6 +130,7 @@ class PayulatamResponseModuleFrontController extends ModuleFrontController
 				$customer = new Customer((int)$cart->id_customer);
 				$this->context->customer = $customer;
 				$payulatam->validateOrder((int)$cart->id, Configuration::get('PAYU_OS_PENDING'), (float)$cart->getordertotal(true), 'PayU Latam', null, array(), (int)$cart->id_currency, false, $customer->secure_key);
+				Configuration::updateValue('PAYULATAM_CONFIGURATION_OK', true);
 			}
 			
 			$this->context->smarty->assign(
