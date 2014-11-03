@@ -34,7 +34,7 @@ public function __construct()
 {
 	$this->name = 'payulatam';
 	$this->tab = 'payments_gateways';
-	$this->version = '2.0';
+	$this->version = '2.1';
 	$this->author = 'PayU Latam';
 	$this->need_instance = 0;
 	$this->currencies = true;
