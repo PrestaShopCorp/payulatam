@@ -51,3 +51,4 @@ $_MODULE['<{payulatam}prestashop>help_3c1be2126b573cb1089d075642d83305'] = 'para
 $_MODULE['<{payulatam}prestashop>redirect_eaac93347037935034bdcdbb21ebfd58'] = 'Ocorreu um erro, por favor tente novamente mais tarde.';
 $_MODULE['<{payulatam}prestashop>redirect_f73059f3167ac57eb907b047f20a4ea8'] = 'Você vai ser redirecionado para o website do PayU para realizar seu pagamento.';
 $_MODULE['<{payulatam}prestashop>redirect_ee97266f5bc6a25e89f1a7d0f889394c'] = 'Por favor clique aqui';
+$_MODULE['<{payulatam}prestashop>payment_c04d6e4914365d1177dd4bdcccd0f644'] = 'Pague com PayU (pague com cartão de crédito ou depósito em dinheiro)';
