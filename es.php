@@ -3,6 +3,7 @@
 global $_MODULE;
 $_MODULE = array();
 $_MODULE['<{payulatam}prestashop>payulatam_6a90d0ab04a2cd28919bee487736cdeb'] = 'PayU';
+$_MODULE['<{payulatam}prestashop>payulatam_4ac315ce2ca92528eb1375cd4100242b'] = 'Gateway de Pagos para PayU';
 $_MODULE['<{payulatam}prestashop>payulatam_4d51c8de422054448e6ce0ba8e601d26'] = 'Cómo configurar';
 $_MODULE['<{payulatam}prestashop>payulatam_2daf1cb573c2c61422faf64610cf9402'] = 'Credenciales';
 $_MODULE['<{payulatam}prestashop>payulatam_bffe9a3c9a7e00ba00a11749e022d911'] = 'Iniciar sesión';
@@ -48,6 +49,7 @@ $_MODULE['<{payulatam}prestashop>help_571f98d1fd2ce5d44fc4b35fbeeba10d'] = 'Ten 
 $_MODULE['<{payulatam}prestashop>help_45e33cdfee112f7b80fdc8e55b05a1af'] = 'Debes deshabilitar el';
 $_MODULE['<{payulatam}prestashop>help_07a82a1f10e64e4d8847445454a39730'] = '\"Test Mode\"';
 $_MODULE['<{payulatam}prestashop>help_3c1be2126b573cb1089d075642d83305'] = 'en tu Módulo Administrativo de PayU, para poder procesar transacciones reales.';
+$_MODULE['<{payulatam}prestashop>payment_c04d6e4914365d1177dd4bdcccd0f644'] = 'Pago por Payu (pago con tarjeta de crédito o depósito en efectivo)';
 $_MODULE['<{payulatam}prestashop>redirect_eaac93347037935034bdcdbb21ebfd58'] = 'Ha ocurrido un error, por favor inténtalo de nuevo más tarde.';
 $_MODULE['<{payulatam}prestashop>redirect_f73059f3167ac57eb907b047f20a4ea8'] = 'Usted va a ser redirigido a la página web PayU para su pago.';
 $_MODULE['<{payulatam}prestashop>redirect_ee97266f5bc6a25e89f1a7d0f889394c'] = 'Por favor haga clic aquí';

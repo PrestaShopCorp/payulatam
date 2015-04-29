@@ -74,9 +74,9 @@
 			<div class="md-col_payu security">
 				<h3>{l s='Security and Recognition' mod='payulatam'}</h3>
 				<ul>
-					<li>{l s='<b>Anti-Fraud Control:</b> The PayU Anti-Fraud system automatically validates transactions and, when necessary, expert analysts manually verify transactions to minimize fraudulent transactions.' mod='payulatam'}</li>
-					<li>{l s='<b>PCI DSS Certification:</b> With this certification, PayU adheres to its standards and ensures the cardholder will have the highest level of security, confidentiality and integrity.' mod='payulatam'}</li>
-					<li>{l s='<b>Veracode Recognition:</b> PayU is the only Latin American company recognized for its high security standards in the development of its transactional platform and associated services.' mod='payulatam'}</li>
+					<li><b>{l s='Anti-Fraud Control:'  mod='payulatam'}</b> {l s='The PayU Anti-Fraud system automatically validates transactions and, when necessary, expert analysts manually verify transactions to minimize fraudulent transactions.' mod='payulatam'}</li>
+					<li><b>{l s='PCI DSS Certification:'  mod='payulatam'}</b> {l s='With this certification, PayU adheres to its standards and ensures the cardholder will have the highest level of security, confidentiality and integrity.' mod='payulatam'}</li>
+					<li><b>{l s='Veracode Recognition:'  mod='payulatam'}</b> {l s='PayU is the only Latin American company recognized for its high security standards in the development of its transactional platform and associated services.' mod='payulatam'}</li>
 				</ul>
 			</div>
 			<div class="clear"></div>
