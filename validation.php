@@ -81,7 +81,7 @@ else
 <center>
 	<img src="<?php echo $url; ?>img/logo.png" height="50" width="135"/>
 	</br>
-	<?php echo $payulatam->l('You will redirect to gateway PayU Latam'); ?>
+	<?php echo $payulatam->l('You will redirect to gateway PayU'); ?>
 </center>
 
 <?php

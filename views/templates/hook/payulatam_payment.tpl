@@ -27,8 +27,8 @@
 		<p class="payment_module">
 			<a href="{$module_dir|escape:'htmlall':'UTF-8'}validation.php" class="link-redirect">
 						
-				<img src="{$module_dir|escape:'htmlall':'UTF-8'}img/logoPayU.png" height="50" width="135"/>	
-				{l s='Pay by PayU Latam' mod='payulatam'}
+				<img src="{$module_dir|escape:'htmlall':'UTF-8'}img/logo.png" height="50" />	
+				{l s='Pay by PayU' mod='payulatam'}
 			</a>
 		</p>
 	</div>

@@ -42,7 +42,7 @@
 						<input type="{$input.type|escape:'htmlall':'UTF-8'}" {if $val == $input.value}checked='checked'{/if} name="{$input.name|escape:'htmlall':'UTF-8'}" id="{$input.name|escape:'htmlall':'UTF-8'}{$val}" value="{$val|escape:'htmlall':'UTF-8'}" />
 					{/foreach}
 				</li>
-				<li><input type="submit" class="md-btn button-form_payu" value="{l s='Save' mod='payulatam'}" /></li>
+				<li><input type="submit" class="md-btn button-form_payu button_payu" value="{l s='Save' mod='payulatam'}" /></li>
 			</ul>
 		{/if}
 	{/foreach}
