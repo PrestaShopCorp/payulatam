@@ -184,7 +184,7 @@ public function hookPayment($params)
 		return;
 		
 	$this->context->smarty->assign(array(
-		'css' => _PS_MODULE_DIR_.$this->name.'/css/',
+		'css' => '../modules/payulatam/css/',
 		'module_dir' => _PS_MODULE_DIR_.$this->name.'/'
 	));
 

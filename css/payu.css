@@ -157,6 +157,11 @@ ul li{text-indent:0px;list-style-type:none;padding:0px;margin-left:0px;}
 
 .md-form{display:none}
 
+  p.payment_module a.link-redirect {background: url(../img/logo.png) 15px 15px no-repeat #fbfbfb; background-size: 68px 55px;}
+  p.payment_module a.link-redirect:after {display: block;content: "\f054"; position: absolute; right: 15px; margin-top: -11px; top: 50%; font-family: "FontAwesome"; font-size: 25px; height: 22px; width: 14px; color: #777777;}
+  p.payment_module a:hover {background-color: #f6f6f6; }
+  p.payment_module a span {font-weight: bold; color: #777777;}
+
   
     
   @media (max-width:958px){
