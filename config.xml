@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>payulatam</name>
-	<displayName><![CDATA[PayU Latam]]></displayName>
-	<version><![CDATA[2.1]]></version>
-	<description><![CDATA[Payment gateway for PayU Latam]]></description>
-	<author><![CDATA[PayU Latam]]></author>
+	<displayName><![CDATA[PayU]]></displayName>
+	<version><![CDATA[2.1.1]]></version>
+	<description><![CDATA[Payment gateway for PayU]]></description>
+	<author><![CDATA[PayU]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
 	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>

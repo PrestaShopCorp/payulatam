@@ -34,15 +34,15 @@ public function __construct()
 {
 	$this->name = 'payulatam';
 	$this->tab = 'payments_gateways';
-	$this->version = '2.1';
-	$this->author = 'PayU Latam';
+	$this->version = '2.1.1';
+	$this->author = 'PayU';
 	$this->need_instance = 0;
 	$this->currencies = true;
 	$this->currencies_mode = 'checkbox';
 	parent::__construct();
 
-	$this->displayName = $this->l('PayU Latam');
-	$this->description = $this->l('Payment gateway for PayU Latam');
+	$this->displayName = $this->l('PayU');
+	$this->description = $this->l('Payment gateway for PayU');
 
 	$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
 	/* Backward compatibility */
@@ -146,7 +146,7 @@ private function _displayCredentialTpl()
 				Tools::safeOutput(Configuration::get('PAYU_LATAM_MERCHANT_ID'))),
 				'type' => 'text',
 				'label' => $this->l('Merchant'),
-				'desc' => $this->l('You will find the Merchant ID in the section "Technical Information" of the Administrative Module.'),
+				'desc' => $this->l('You will find the Merchant ID in the section “Technical Information”').'<br>'.$this->l('of the Administrative Module.'),
 			),
 			'api_key' => array(
 				'name' => 'api_key',
@@ -155,7 +155,7 @@ private function _displayCredentialTpl()
 				Tools::safeOutput(Configuration::get('PAYU_LATAM_API_KEY'))),
 				'type' => 'text',
 				'label' => $this->l('Api Key'),
-				'desc' => $this->l('You will find the API Key in the section "Technical Information" of the Administrative Module.'),
+				'desc' => $this->l('You will find the API Key in the section “Technical Information”').'<br>'.$this->l('of the Administrative Module.'),
 			),
 			'account_id' => array(
 				'name' => 'account_id',
@@ -163,7 +163,7 @@ private function _displayCredentialTpl()
 				'value' => (Tools::getValue('account_id') ? (int)Tools::getValue('account_id') : (int)Configuration::get('PAYU_LATAM_ACCOUNT_ID')),
 				'type' => 'text',
 				'label' => $this->l('Account ID'),
-				'desc' => $this->l('You will find the Account ID in the section "Account" of the Administrative Module.'),
+				'desc' => $this->l('You will find the Account ID in the section “Account”').'<br>'.$this->l('of the Administrative Module.'),
 			),
 			'test' => array(
 				'name' => 'test',
@@ -184,7 +184,7 @@ public function hookPayment($params)
 		return;
 		
 	$this->context->smarty->assign(array(
-		'css' => _PS_MODULE_DIR_.$this->name.'/css/',
+		'css' => '../modules/payulatam/css/',
 		'module_dir' => _PS_MODULE_DIR_.$this->name.'/'
 	));
 

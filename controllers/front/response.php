@@ -1,6 +1,6 @@
 <?php
 /**
-* 2014 PAYU LATAM
+* 2015 PAYU
 *
 * NOTICE OF LICENSE
 *
@@ -18,8 +18,8 @@
 * versions in the future. If you wish to customize PrestaShop for your
 * needs please refer to http://www.prestashop.com for more information.
 *
-*  @author    PAYU LATAM <sac@payulatam.com>
-*  @copyright 2014 PAYU LATAM
+*  @author    PAYU <sac@payulatam.com>
+*  @copyright 2015 PAYU
 *  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
 class PayulatamResponseModuleFrontController extends ModuleFrontController
@@ -129,7 +129,7 @@ class PayulatamResponseModuleFrontController extends ModuleFrontController
 			{
 				$customer = new Customer((int)$cart->id_customer);
 				$this->context->customer = $customer;
-				$payulatam->validateOrder((int)$cart->id, Configuration::get('PAYU_OS_PENDING'), (float)$cart->getordertotal(true), 'PayU Latam', null, array(), (int)$cart->id_currency, false, $customer->secure_key);
+				$payulatam->validateOrder((int)$cart->id, Configuration::get('PAYU_OS_PENDING'), (float)$cart->getordertotal(true), 'PayU', null, array(), (int)$cart->id_currency, false, $customer->secure_key);
 				Configuration::updateValue('PAYULATAM_CONFIGURATION_OK', true);
 			}
 			
