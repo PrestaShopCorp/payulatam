@@ -43,6 +43,7 @@ public function __construct()
 
 	$this->displayName = $this->l('PayU');
 	$this->description = $this->l('Payment gateway for PayU');
+	$this->controllers = array('response');
 
 	$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
 	/* Backward compatibility */
